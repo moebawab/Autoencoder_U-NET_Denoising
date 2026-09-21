@@ -30,15 +30,19 @@ and place your grayscale X-ray images inside it.
 
 Example:
 
+```text
 project/
+│
 ├── baseline/
 │   ├── image_001.png
 │   ├── image_002.png
 │   ├── image_003.png
 │   └── ...
+│
 ├── gaussian_denoising.py
 ├── poisson_denoising.py
 └── salt_and_pepper_denoising.py
+```
 
 
 Supported formats:
